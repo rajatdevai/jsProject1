@@ -1,0 +1,59 @@
+* {
+    
+    box-sizing: border-box;
+    font-family: 'gilroy';
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100%;
+
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: black;
+
+}
+
+.elem {
+    height: 170px;
+    width: 100%;
+    border-bottom: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    color: white;
+
+
+
+
+
+
+}
+
+.elem h1 {
+    font-size: 8vw;
+    position: relative;
+    z-index: 9;
+    mix-blend-mode: difference;
+
+}
+
+.elem img {
+    object-fit: cover;
+    height: 100%;
+    width: 150px;
+    border-radius: 70%;
+    object-position: center;
+    position: absolute;
+    opacity: 0;
+    transition: all linear 0.2s;
+
+
+
+}

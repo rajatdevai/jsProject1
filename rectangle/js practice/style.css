@@ -1,0 +1,14 @@
+html,body{
+    height:100%;
+    width:100%;
+
+}
+#center{
+    height:300px;
+    width:500px;
+    border:1px solid black;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    position:absolute;
+}
